@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e6f7ff, #ccf5ff);
+    color: #333;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #1E3A8A;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.trip-details {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.trip-details img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.trip-details p {
+    font-size: 1.2em;
+    color: #475569;
+    margin: 10px 0;
+}
+
+strong {
+    color: #1E3A8A;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #008cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+button[type="button"] {
+    background-color: #f44336;
+}
+
+button[type="button"]:hover {
+    background-color: #d32f2f;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .trip-details p, button {
+        font-size: 1em;
+    }
+
+    .trip-details img {
+        width: 100%;
+    }
+}

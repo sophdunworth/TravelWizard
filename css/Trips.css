@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fb;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Adjusted from 100px */
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Trip Details (Carousel + Itinerary Side by Side) */
+.trip-details {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* Image Carousel */
+.carousel-container {
+    flex: 2; /* Takes 60% of space */
+    min-width: 60%;
+    max-width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel {
+    width: 100%; 
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.carousel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Trip Itinerary */
+.info {
+    flex: 1; /* Takes 40% of space */
+    max-width: 40%;
+    max-height: 50%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Book Now Button */
+.book-now {
+    background: #0056b3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Trip Itinerary */
+.trip-itinerary {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.accordion-header {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.accordion-content.show {
+    display: list-item;
+}
