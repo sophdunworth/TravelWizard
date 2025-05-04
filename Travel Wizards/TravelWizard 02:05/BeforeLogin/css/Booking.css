@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e6f7ff, #ccf5ff);
+    color: #333;
+}
+
+h1, h2 {
+    color: #1E3A8A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Booking Form Container */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section Styling */
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9fafb;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+/* Form Fields */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button[type="submit"], button[type="button"] {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #008cff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover {
+    background: #005f99;
+}
+
+/* Checkbox for allergies input */
+#allergies_input {
+    display: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    button[type="submit"], button[type="button"] {
+        width: 100%;
+    }
+}
+
+/* Health and Safety Section */
+section#health-safety {
+    background-color: #f0f9ff;
+    border: 1px solid #d1d5db;
+}
+
+/* Form field for allergies check */
+#allergies_check {
+    margin-right: 10px;
+}

@@ -1,0 +1,142 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    padding: 20px;
+    margin: 0;
+}
+ 
+/* Header Styling */
+h2 {
+    background-color: #0288d1; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    font-size: 24px;
+    width: 100%;
+}
+ 
+/* Search Bar */
+form {
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+ 
+form input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #0288d1; /* Blue */
+    border-radius: 4px;
+    margin-right: 10px;
+}
+ 
+form button {
+    background-color: #0288d1; /* Blue */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+form button:hover {
+    background-color: #0277bd; /* Slightly darker blue */
+}
+ 
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+ 
+th, td {
+    border: 1px solid #0288d1; /* Blue */
+    padding: 10px;
+    text-align: center;
+}
+ 
+th {
+    background-color: #0288d1; /* Blue */
+    color: white;
+}
+ 
+/* Buttons in Table */
+button {
+    margin: 5px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+button.edit-btn {
+    background-color: #81d4fa; /* Light blue */
+}
+ 
+button.delete-btn {
+    background-color: #0288d1; /* Blue */
+}
+ 
+button.delete-btn:hover {
+    background-color: #0277bd; /* Slightly darker blue */
+}
+ 
+/* Popup Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+.modal-content {
+    text-align: left;
+}
+ 
+.modal label {
+    font-weight: bold;
+}
+ 
+.modal input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #0288d1; /* Blue */
+    border-radius: 4px;
+}
+ 
+.modal button {
+    width: 100%;
+    background-color: #0288d1; /* Blue */
+    color: white;
+}
+ 
+.modal button:hover {
+    background-color: #0277bd; /* Slightly darker blue */
+}
+ 
+/* Close Button */
+.close {
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+}
+ 
+.close:hover {
+    color: red;
+}
